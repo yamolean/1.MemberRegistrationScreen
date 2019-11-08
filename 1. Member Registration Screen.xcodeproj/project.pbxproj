@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1809D5C62360029E00448716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5C52360029E00448716 /* AppDelegate.swift */; };
+		1809D5C82360029E00448716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5C72360029E00448716 /* ViewController.swift */; };
+		1809D5CB2360029E00448716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1809D5C92360029E00448716 /* Main.storyboard */; };
+		1809D5CD2360029E00448716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1809D5CC2360029E00448716 /* Assets.xcassets */; };
+		1809D5D02360029E00448716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1809D5CE2360029E00448716 /* LaunchScreen.storyboard */; };
+		1809D5DB2360079600448716 /* IconEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5D92360079600448716 /* IconEditCell.swift */; };
+		1809D5DC2360079600448716 /* IconEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1809D5DA2360079600448716 /* IconEditCell.xib */; };
+		1809D5E323602B4700448716 /* GenderEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5E123602B4700448716 /* GenderEditCell.swift */; };
+		1809D5E423602B4700448716 /* GenderEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1809D5E223602B4700448716 /* GenderEditCell.xib */; };
+		1809D5EB23602B7F00448716 /* AgeEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5E923602B7F00448716 /* AgeEditCell.swift */; };
+		1809D5EC23602B7F00448716 /* AgeEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1809D5EA23602B7F00448716 /* AgeEditCell.xib */; };
+		1809D5EF23602B9300448716 /* PlaceEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5ED23602B9300448716 /* PlaceEditCell.swift */; };
+		1809D5F023602B9300448716 /* PlaceEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1809D5EE23602B9300448716 /* PlaceEditCell.xib */; };
+		1809D5F323602BA500448716 /* BioEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5F123602BA500448716 /* BioEditCell.swift */; };
+		1809D5F423602BA500448716 /* BioEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1809D5F223602BA500448716 /* BioEditCell.xib */; };
+		1809D5F823602C0A00448716 /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5F723602C0A00448716 /* PickerTextField.swift */; };
+		1809D5FA23602C1900448716 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5F923602C1900448716 /* PlaceholderTextView.swift */; };
+		1809D5FD23602C3C00448716 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5FC23602C3C00448716 /* User.swift */; };
+		1809D5FF23602C7F00448716 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D5FE23602C7F00448716 /* Gender.swift */; };
+		1809D60123602C9000448716 /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D60023602C9000448716 /* Prefecture.swift */; };
+		1809D60523602CD200448716 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D60423602CD200448716 /* Parameter.swift */; };
+		1809D609236042E300448716 /* NickNameEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809D607236042E300448716 /* NickNameEditCell.swift */; };
+		1809D60A236042E300448716 /* NickNameEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1809D608236042E300448716 /* NickNameEditCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1809D5C22360029E00448716 /* 1. Member Registration Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1. Member Registration Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1809D5C52360029E00448716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1809D5C72360029E00448716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1809D5CA2360029E00448716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1809D5CC2360029E00448716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1809D5CF2360029E00448716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1809D5D12360029E00448716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1809D5D92360079600448716 /* IconEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconEditCell.swift; sourceTree = "<group>"; };
+		1809D5DA2360079600448716 /* IconEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconEditCell.xib; sourceTree = "<group>"; };
+		1809D5E123602B4700448716 /* GenderEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderEditCell.swift; sourceTree = "<group>"; };
+		1809D5E223602B4700448716 /* GenderEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderEditCell.xib; sourceTree = "<group>"; };
+		1809D5E923602B7F00448716 /* AgeEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeEditCell.swift; sourceTree = "<group>"; };
+		1809D5EA23602B7F00448716 /* AgeEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeEditCell.xib; sourceTree = "<group>"; };
+		1809D5ED23602B9300448716 /* PlaceEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEditCell.swift; sourceTree = "<group>"; };
+		1809D5EE23602B9300448716 /* PlaceEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceEditCell.xib; sourceTree = "<group>"; };
+		1809D5F123602BA500448716 /* BioEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioEditCell.swift; sourceTree = "<group>"; };
+		1809D5F223602BA500448716 /* BioEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BioEditCell.xib; sourceTree = "<group>"; };
+		1809D5F723602C0A00448716 /* PickerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTextField.swift; sourceTree = "<group>"; };
+		1809D5F923602C1900448716 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		1809D5FC23602C3C00448716 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1809D5FE23602C7F00448716 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		1809D60023602C9000448716 /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
+		1809D60423602CD200448716 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		1809D607236042E300448716 /* NickNameEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameEditCell.swift; sourceTree = "<group>"; };
+		1809D608236042E300448716 /* NickNameEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NickNameEditCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1809D5BF2360029E00448716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1809D5B92360029E00448716 = {
+			isa = PBXGroup;
+			children = (
+				1809D5C42360029E00448716 /* 1. Member Registration Screen */,
+				1809D5C32360029E00448716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1809D5C32360029E00448716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1809D5C22360029E00448716 /* 1. Member Registration Screen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1809D5C42360029E00448716 /* 1. Member Registration Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1809D5D72360075600448716 /* Model */,
+				1809D5D82360076200448716 /* View */,
+				1809D5C52360029E00448716 /* AppDelegate.swift */,
+				1809D5C72360029E00448716 /* ViewController.swift */,
+				1809D5C92360029E00448716 /* Main.storyboard */,
+				1809D5CC2360029E00448716 /* Assets.xcassets */,
+				1809D5CE2360029E00448716 /* LaunchScreen.storyboard */,
+				1809D5D12360029E00448716 /* Info.plist */,
+			);
+			path = "1. Member Registration Screen";
+			sourceTree = "<group>";
+		};
+		1809D5D72360075600448716 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1809D60223602CA400448716 /* API */,
+				1809D5FB23602C2600448716 /* Entity */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1809D5D82360076200448716 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1809D5F623602BE300448716 /* Component */,
+				1809D5F523602BC400448716 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1809D5F523602BC400448716 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1809D5D92360079600448716 /* IconEditCell.swift */,
+				1809D5DA2360079600448716 /* IconEditCell.xib */,
+				1809D607236042E300448716 /* NickNameEditCell.swift */,
+				1809D608236042E300448716 /* NickNameEditCell.xib */,
+				1809D5E123602B4700448716 /* GenderEditCell.swift */,
+				1809D5E223602B4700448716 /* GenderEditCell.xib */,
+				1809D5E923602B7F00448716 /* AgeEditCell.swift */,
+				1809D5EA23602B7F00448716 /* AgeEditCell.xib */,
+				1809D5ED23602B9300448716 /* PlaceEditCell.swift */,
+				1809D5EE23602B9300448716 /* PlaceEditCell.xib */,
+				1809D5F123602BA500448716 /* BioEditCell.swift */,
+				1809D5F223602BA500448716 /* BioEditCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1809D5F623602BE300448716 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1809D5F723602C0A00448716 /* PickerTextField.swift */,
+				1809D5F923602C1900448716 /* PlaceholderTextView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1809D5FB23602C2600448716 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1809D5FC23602C3C00448716 /* User.swift */,
+				1809D5FE23602C7F00448716 /* Gender.swift */,
+				1809D60023602C9000448716 /* Prefecture.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1809D60223602CA400448716 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1809D60423602CD200448716 /* Parameter.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1809D5C12360029E00448716 /* 1. Member Registration Screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1809D5D42360029E00448716 /* Build configuration list for PBXNativeTarget "1. Member Registration Screen" */;
+			buildPhases = (
+				1809D5BE2360029E00448716 /* Sources */,
+				1809D5BF2360029E00448716 /* Frameworks */,
+				1809D5C02360029E00448716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1. Member Registration Screen";
+			productName = "1. Member Registration Screen";
+			productReference = 1809D5C22360029E00448716 /* 1. Member Registration Screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1809D5BA2360029E00448716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yamolean;
+				TargetAttributes = {
+					1809D5C12360029E00448716 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1809D5BD2360029E00448716 /* Build configuration list for PBXProject "1. Member Registration Screen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1809D5B92360029E00448716;
+			productRefGroup = 1809D5C32360029E00448716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1809D5C12360029E00448716 /* 1. Member Registration Screen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1809D5C02360029E00448716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809D60A236042E300448716 /* NickNameEditCell.xib in Resources */,
+				1809D5E423602B4700448716 /* GenderEditCell.xib in Resources */,
+				1809D5F423602BA500448716 /* BioEditCell.xib in Resources */,
+				1809D5DC2360079600448716 /* IconEditCell.xib in Resources */,
+				1809D5EC23602B7F00448716 /* AgeEditCell.xib in Resources */,
+				1809D5D02360029E00448716 /* LaunchScreen.storyboard in Resources */,
+				1809D5F023602B9300448716 /* PlaceEditCell.xib in Resources */,
+				1809D5CD2360029E00448716 /* Assets.xcassets in Resources */,
+				1809D5CB2360029E00448716 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1809D5BE2360029E00448716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809D5FF23602C7F00448716 /* Gender.swift in Sources */,
+				1809D5C82360029E00448716 /* ViewController.swift in Sources */,
+				1809D5E323602B4700448716 /* GenderEditCell.swift in Sources */,
+				1809D5EB23602B7F00448716 /* AgeEditCell.swift in Sources */,
+				1809D60523602CD200448716 /* Parameter.swift in Sources */,
+				1809D5F323602BA500448716 /* BioEditCell.swift in Sources */,
+				1809D5DB2360079600448716 /* IconEditCell.swift in Sources */,
+				1809D5EF23602B9300448716 /* PlaceEditCell.swift in Sources */,
+				1809D5C62360029E00448716 /* AppDelegate.swift in Sources */,
+				1809D5F823602C0A00448716 /* PickerTextField.swift in Sources */,
+				1809D60123602C9000448716 /* Prefecture.swift in Sources */,
+				1809D609236042E300448716 /* NickNameEditCell.swift in Sources */,
+				1809D5FA23602C1900448716 /* PlaceholderTextView.swift in Sources */,
+				1809D5FD23602C3C00448716 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1809D5C92360029E00448716 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1809D5CA2360029E00448716 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1809D5CE2360029E00448716 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1809D5CF2360029E00448716 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1809D5D22360029E00448716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1809D5D32360029E00448716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1809D5D52360029E00448716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1. Member Registration Screen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yamolean.---Member-Registration-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1809D5D62360029E00448716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1. Member Registration Screen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yamolean.---Member-Registration-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1809D5BD2360029E00448716 /* Build configuration list for PBXProject "1. Member Registration Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1809D5D22360029E00448716 /* Debug */,
+				1809D5D32360029E00448716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1809D5D42360029E00448716 /* Build configuration list for PBXNativeTarget "1. Member Registration Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1809D5D52360029E00448716 /* Debug */,
+				1809D5D62360029E00448716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1809D5BA2360029E00448716 /* Project object */;
+}

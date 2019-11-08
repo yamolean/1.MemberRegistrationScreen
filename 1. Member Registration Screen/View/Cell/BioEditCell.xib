@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="304" id="KGk-i7-Jjw" customClass="BioEditCell" customModule="___Member_Registration_Screen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="304"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="303.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jhL-4g-EKj" customClass="PlaceholderTextView" customModule="___Member_Registration_Screen" customModuleProvider="target">
+                        <rect key="frame" x="16" y="21" width="288" height="200"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="IYS-7f-lZu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100/100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpl-dA-QGC">
+                        <rect key="frame" x="244" y="231" width="50" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="745-YS-CVe"/>
+                            <constraint firstAttribute="width" constant="50" id="Ycn-nl-8sv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jhL-4g-EKj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="IMG-ys-FHy"/>
+                    <constraint firstItem="jhL-4g-EKj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Yyi-fo-kTq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="jhL-4g-EKj" secondAttribute="trailing" id="fyb-zy-OTc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Lpl-dA-QGC" secondAttribute="bottom" constant="10" id="nZl-82-lvl"/>
+                    <constraint firstItem="Lpl-dA-QGC" firstAttribute="top" secondItem="jhL-4g-EKj" secondAttribute="bottom" constant="10" id="o4j-iu-tx3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Lpl-dA-QGC" secondAttribute="trailing" constant="10" id="xiF-gm-uxr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bioCountLabel" destination="Lpl-dA-QGC" id="HsM-qx-hAO"/>
+                <outlet property="bioTextView" destination="jhL-4g-EKj" id="lOK-hY-OAE"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="121.875"/>
+        </tableViewCell>
+    </objects>
+</document>
